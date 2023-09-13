@@ -2,10 +2,10 @@ function AboutUs() {
     return (
         <div className="about-us p-5 pb-2">
             <figure>
-                <blockquote class="blockquote">
+                <blockquote className="blockquote">
                     <p>A well-known quote, contained in a blockquote element.</p>
                 </blockquote>
-                <figcaption class="blockquote-footer">
+                <figcaption className="blockquote-footer">
                     Someone famous in <cite title="Source Title">Source Title</cite>
                 </figcaption>
             </figure>

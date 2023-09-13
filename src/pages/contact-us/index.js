@@ -2,10 +2,10 @@ import './style.scss'
 
 function ContactUs() {
     return (
-        <section class="contact_section mt-5">
-            <div class="container container-bg">
-                <div class="row">
-                    <div class="col-md-12 col-lg-12 px-0">
+        <section className="contact_section mt-5">
+            <div className="container container-bg">
+                <div className="row">
+                    <div className="col-md-12 col-lg-12 px-0">
                         <form action="#">
                             <div>
                                 <input type="text" placeholder="Name" />
@@ -17,9 +17,9 @@ function ContactUs() {
                                 <input type="text" placeholder="Phone" />
                             </div>
                             <div>
-                                <input type="text" class="message-box" placeholder="Message" />
+                                <input type="text" className="message-box" placeholder="Message" />
                             </div>
-                            <div class="d-flex ">
+                            <div className="d-flex ">
                                 <button>
                                     SEND
                                 </button>
