@@ -20,7 +20,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "sass": "sass --watch src/assets/scss:public/css --style=compressed --update --no-source-map",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
